@@ -1,0 +1,29 @@
+{
+  "name": "egg-ueditor",
+  "version": "1.0.0",
+  "description": "基于egg的UEditor百度编辑器后端实现，支持图片/文件上传、列表及图片远程抓取",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "koa-multer": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inmyjs/egg-ueditor.git"
+  },
+  "homepage": "https://github.com/inmyjs/egg-ueditor",
+  "keywords": [
+    "egg",
+    "nodejs",
+    "ueditor",
+    "egg-ueditor"
+  ],
+  "author": "inmyjs",
+  "license": "Apache License 2.0"
+}
