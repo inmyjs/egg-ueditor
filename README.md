@@ -41,3 +41,7 @@ router.all('/ueditor', ueditor(['app/public','public']，{
 	"imagePathFormat": "/upload/ueditor/image/{yyyy}{mm}{dd}/{filename}"  // 保存为原文件名
 }))
 ```
+### 非常感谢您的支持
+撸码不易，如果对你有所帮助，欢迎您的赞赏！微信赞赏码：
+
+![](https://raw.githubusercontent.com/wiki/inmyjs/asweb/images/20180831154543.jpg)
