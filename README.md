@@ -41,6 +41,14 @@ router.all('/ueditor', ueditor(['app/public','public']，{
 	"imagePathFormat": "/upload/ueditor/image/{yyyy}{mm}{dd}/{filename}"  // 保存为原文件名
 }))
 ```
+### 注意
+       由于egg对post默认有CSRF 校验，所以前端的上传地址需要这样写：
+       serverUrl: "/ueditor?_csrf={{ ctx.csrf | safe }}"
+       如果前后端是分离的，那就这样写：
+       let csrf = $.cookies.get('csrfToken');
+       serverUrl: "/ueditor?_csrf="+csrf
+       详细说明请查看 https://eggjs.org/zh-cn/core/security.html
+      
 ### 非常感谢您的支持
 撸码不易，如果对你有所帮助，欢迎您的赞赏！微信赞赏码：
 
